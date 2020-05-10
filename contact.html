@@ -9,17 +9,17 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
     <!-- Internal Linked CSS -->
-    <link rel="stylesheet" type="text/css" href="./Assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 
     <title>Contact</title>
   </head>
   <body>
     
    <!-- Nav Bar -->
-    <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Alex Shafer</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+   <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark">
+    <a class="navbar-brand" href="./index.html"><img src="./assets/images/logo.png" width="70" height="70"  alt="logo">Alex Shafer</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
           <div class="navbar-nav">
@@ -29,19 +29,24 @@
             </div>
         </div>
     </nav>
-    <!-- End Nav Bar-->
 
+    <!-- Contact-->
     <div class="container">
+        <div class="row">
+          <div class="col">
+            <h1>Contact</h1>
+          </div>
+        </div>
         <div class="row align-items-center">
             <div class="col align-self-center">
                 <div class="container">
            
                 <form action="/action_page.php">
                   <label for="contactName">Name</label>
-                  <input type="text" id="name" name="name" placeholder="Your name..">
+                  <input type="text" id="contactName" name="name" placeholder="Your name..">
               
-                  <label for="lname">Email</label>
-                  <input type="text" id="lname" name="lastname" placeholder="example@gmail.com">
+                  <label for="contactEmail">Email</label>
+                  <input type="text" id="contactEmail" name="email" placeholder="example@gmail.com">
               
                   <label for="subject">Message</label>
                   <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>

@@ -13,7 +13,7 @@ input[type=text], select, textarea {
 }
 
 input[type=submit] {
-  background-color: #4CAF50;
+  background-color: darkorchid;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -22,7 +22,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #45a049;
+  background-color: orchid;
 }
 
 .container {
@@ -36,3 +36,19 @@ body {
     background-repeat:  repeat;
     background-color: #cccccc;
   }
+
+nav {
+    background-image: url(../images/nav.jpg);
+    background-position: center;
+    background-size: cover; 
+}
+
+
+.card-text {
+  text-align: center;
+  color: #cccccc;
+}
+
+.card-body {
+  background-color: darkorchid;
+}
